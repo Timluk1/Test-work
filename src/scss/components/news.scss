@@ -1,0 +1,116 @@
+.news {
+    margin-bottom: 40px;
+
+    &__title {
+        margin-bottom: 30px;
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 31px;
+        color: $font-color-primary;
+    }
+
+    &__list {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+}
+
+.news-about {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    border-bottom: 1px solid rgba(47, 34, 34, 0.1);
+    cursor: pointer;
+
+    &:last-child {
+        border: none;
+    }
+
+    &__text {
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 23px;
+        margin-bottom: 10px;
+        color: $font-color-primary;
+        transition: color 0.4s ease-in-out;
+
+        &:hover {
+            color: $font-color-third
+        }
+    }
+
+    &__date {
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 23px;
+        margin-bottom: 10px;
+        color: $font-color-fifth;
+    }
+}
+
+
+
+
+.news-container {
+    max-width: 320px;
+    width: 100%;
+}
+
+.news {
+    margin-bottom: 40px;
+
+    &__title {
+        margin-bottom: 30px;
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 31px;
+        color: #2F2222;
+    }
+
+    .news__list {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .news-about {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        border-bottom: 1px solid rgba(47, 34, 34, 0.1);
+        cursor: pointer;
+    }
+
+    &:last-child {
+        border: none;
+    }
+
+    &__text {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 23px;
+        margin-bottom: 10px;
+        color: #2F2222;
+        transition: color 0.4s ease-in-out;
+    }
+
+    &__text:hover {
+        color: #5D71DD;
+    }
+
+    &__date {
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 23px;
+        margin-bottom: 10px;
+        color: #E5E4E4;
+    }
+}
+
+
+.news-container {
+    max-width: 320px;
+    width: 100%;
+}

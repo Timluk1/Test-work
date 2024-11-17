@@ -1,0 +1,22 @@
+.social {
+    display: flex;
+    align-items: center;
+
+    &__icon {
+        cursor: pointer;
+        width: 14px;
+        height: 14px;
+        margin-right: 10px;
+    }
+
+    &__number {
+        font-weight: 450;
+        font-size: 18px;
+        line-height: 23px;
+        color: $font-color-third;
+
+        &:hover {
+            color: $font-color-fourth;
+        }
+    }
+}

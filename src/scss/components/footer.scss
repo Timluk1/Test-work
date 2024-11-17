@@ -1,0 +1,36 @@
+.footer {
+    display: flex;
+    flex-direction: column;
+    padding: 40px 0px;
+
+    &__logo {
+        margin-bottom: 40px;
+    }
+
+    &__list {
+        display: flex;
+        justify-content: center;
+        gap: 80px;
+
+        &-item {
+            a {
+                font-weight: 400;
+                font-size: 18px;
+                line-height: 23px;
+                color: #2F2222;
+                transition: color 0.2s ease-in-out;
+            }
+            a:hover {
+                color: #5D71DD;
+            }
+        }
+    }
+
+    &__text {
+        text-align: center;
+    }
+
+    &__nav {
+        margin-bottom: 64px;
+    }
+}

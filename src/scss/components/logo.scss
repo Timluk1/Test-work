@@ -1,0 +1,19 @@
+.logo {
+    cursor: pointer;
+    position: relative;
+    width: 48px;
+    height: 48px;
+    background-color: #5D71DD;
+    border-radius: 50%;
+
+    &__rectangle {
+        position: absolute;
+        bottom: 0;
+        right: -2px;
+        width: 25px;
+        height: 25px;
+        background: $background-secondary-color;
+        box-shadow: 0px 4px 4px rgba(57, 70, 136, 0.18);
+        border-radius: 50%;
+    }
+}

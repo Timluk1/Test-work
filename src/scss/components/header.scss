@@ -1,0 +1,33 @@
+.header {
+    padding: 11px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    &__nav,
+    &__list {
+        display: flex;
+    }
+
+    &__list {
+        &-item {
+            a {
+                font-weight: 400;
+                font-size: 18px;
+                line-height: 23px;
+                color: $font-color-primary;
+                margin-right: 40px;
+                transition: color 0.5s;
+            }
+
+            a:hover {
+                color: $font-color-fourth;
+            }
+
+            &.active a {
+                color: $font-color-third;
+                border-bottom: 2px solid #5D71DD;
+            }
+        }
+    }
+}

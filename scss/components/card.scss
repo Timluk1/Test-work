@@ -45,12 +45,12 @@
 
     .card {
         &__button {
-            background: rgba(93, 113, 221, 0.05);
+            background: $blurr-background-secondary;
             color: $font-color-third;
         }
 
         &__date {
-            color: rgba(47, 34, 34, 0.4);
+            color: $blurr-background-primary;
         }
 
         &__data {
@@ -60,7 +60,7 @@
         }
 
         &__description {
-            color: rgba(47, 34, 34, 0.4);
+            color: $blurr-background-primary;
         }
     }
 }
@@ -79,24 +79,24 @@
 
 
 .card-image-oil {
-    background: url("./oil.png") center/cover no-repeat;
+    background: url("../oil.png") center/cover no-repeat;
     color: $font-color-secondary;
 
     .card {
         &__button {
-            background: rgba(255, 255, 255, 0.2);
+            background: $blurr-background-third;
             color: $font-color-secondary;
         }
     }
 }
 
 .card-image-stars {
-    background: url("./stars.png") center/cover no-repeat;
+    background: url("../stars.png") center/cover no-repeat;
     color: $font-color-secondary;
 
     .card {
         &__button {
-            background: rgba(255, 255, 255, 0.2);
+            background: $blurr-background-third;
             color: $font-color-secondary;
         }
     }

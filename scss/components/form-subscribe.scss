@@ -21,7 +21,7 @@
         font-weight: 400;
         font-size: 18px;
         line-height: 23px;
-        color: rgba(47, 34, 34, 0.4);
+        color: $blurr-background-primary;
         background: $background-sixth-color;
         border-radius: 20px;
         padding: 13px 30px;
@@ -29,7 +29,7 @@
         border: 1.5px solid transparent;
 
         &::placeholder {
-            color: rgba(47, 34, 34, 0.4);
+            color: $blurr-background-primary;
         }
 
         &:focus {

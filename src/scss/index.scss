@@ -124,9 +124,19 @@
     background: rgba(2, 5, 23, 0.05);
 }
 
+@media (max-width: 390px) {
+    .background-image {
+        min-height: 150px;
+    }
+}
+
 @media (max-width: 600px) {
-    .main-section {
-        margin-bottom: 40px;
+    .burger-menu {
+        display: block;
+        &__img {
+            height: 38px;
+            width: 38px;
+        }
     }
 }
 
@@ -146,6 +156,10 @@
     .news-container {
         max-width: 100%;
         width: 100%;
+    }
+
+    .background-image {
+        min-height: 250px;
     }
 }
 

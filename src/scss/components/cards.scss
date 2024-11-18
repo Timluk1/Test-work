@@ -157,8 +157,11 @@
 }
 
 @media (max-width: 600px) {
-    .cards__container-first {
+    .cards__container-first, .cards__container-second, .cards__container-third {
         grid-template-rows: repeat(3, 1fr);
     }
-    
+
+    .cards {
+        margin-bottom: 0px;
+    }
 }

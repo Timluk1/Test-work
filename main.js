@@ -1,5 +1,5 @@
-import { Menu } from './javascript/menu';
-import './scss/index.scss';
+import { Menu } from "./javascript/menu.js";
+import "./scss/index.scss";
 
 // основная функция, точка входа в приложение
 function main() {

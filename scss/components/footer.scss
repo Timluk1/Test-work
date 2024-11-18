@@ -17,11 +17,11 @@
                 font-weight: 400;
                 font-size: 18px;
                 line-height: 23px;
-                color: #2F2222;
+                color: $font-color-primary;
                 transition: color 0.2s ease-in-out;
             }
             a:hover {
-                color: #5D71DD;
+                color: $font-color-third;
             }
         }
     }

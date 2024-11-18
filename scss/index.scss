@@ -29,18 +29,11 @@
 
 
 .background-image {
-    background: url("../assets/background.jpg") center/cover no-repeat;
+    background: url("../background.jpg") center/cover no-repeat;
     width: 100%;
     min-height: 300px;
 }
 
-.image-stars {
-    background: url("../assets/stars.png") center/cover no-repeat;
-}
-
-.image-oil {
-    background: url("../assets/oil.jpg") center/cover no-repeat;
-}
 
 .first-padding-card {
     padding: 40px;
@@ -74,18 +67,18 @@
                 font-weight: 400;
                 font-size: 18px;
                 line-height: 23px;
-                color: #000000;
+                color: $font-color-primary;
                 transition: color 0.2s ease-in-out;
             }
 
             a:hover {
-                color: #5D71DD;
+                color: $font-color-third;
             }
 
             &.active {
                 a {
-                    color: #5D71DD;
-                    border-bottom: 1px solid #5D71DD;
+                    color: $font-color-third;
+                    border-bottom: 1px solid $font-color-third;
                 }
             }
         }
@@ -106,7 +99,7 @@
         font-weight: 400;
         font-size: 18px;
         line-height: 23px;
-        color: #5D71DD;
+        color: $font-color-third;
     }
 
     &:hover {

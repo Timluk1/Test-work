@@ -19,11 +19,12 @@
         <div class="menu-overlay" id="menu-overlay"></div>
         <div class="menu">
             <div class="close-container">
-                <img class="close-container__img" id="icon-close-menu" src="./assets/close.svg" alt="" width="30" height="30">
+                <img class="close-container__img" id="icon-close-menu" src="./assets/close.svg" alt="" width="30"
+                    height="30">
             </div>
             <nav class="menu__nav">
                 <ul class="menu__list">
-                    <li class="menu__list-item active">
+                    <li class="menu__list-item">
                         <a href="#">Главная</a>
                     </li>
                     <li class="menu__list-item">
@@ -225,9 +226,7 @@
                                     <p class="card__date">13 дек 2020</p>
                                 </div>
                             </div>
-                        </div>
-                        <div class="cards__container cards__container-fourth">
-                            <div class="card card-image-stars card1 third-padding-card">
+                            <div class="card card-image-stars card3 third-padding-card">
                                 <div class="card__content">
                                     <button class="card__button">
                                         Категория 9
@@ -241,7 +240,7 @@
                                     <p class="card__date">13 дек 2020</p>
                                 </div>
                             </div>
-                            <div class="card card-white card2 second-padding-card">
+                            <div class="card card-white card4 second-padding-card">
                                 <div class="card__content">
                                     <div>
                                         <button class="card__button">
@@ -257,7 +256,7 @@
                                     <p class="card__date">13 дек 2020</p>
                                 </div>
                             </div>
-                            <div class="card card-white card3 second-padding-card">
+                            <div class="card card-white card5 second-padding-card">
                                 <div class="card__content">
                                     <button class="card__button">
                                         Категория 11
@@ -326,18 +325,18 @@
                             </li>
                         </ul>
                     </div>
-
                     <form class="form-subscribe" action="">
                         <h3 class="form-subscribe__title">
                             Подписка на рассылку
                         </h3>
-                        <input class="form-subscribe__input" type="email" placeholder="Email@gmail.com" />
-                        <button class="form-subscribe__button" type="submit">
-                            <p class="form-subscribe__text">Подписаться</p>
-                            <img class="form-subscribe__icon" src="../assets/right-arrow.svg" alt="Иконка отправки" />
-                        </button>
-                    </form>
-
+                        <div class="form-subscribe__container">
+                            <input class="form-subscribe__input" type="email" placeholder="Email@gmail.com" />
+                            <button class="form-subscribe__button" type="submit">
+                                <p class="form-subscribe__text">Подписаться</p>
+                                <img class="form-subscribe__icon" src="../assets/right-arrow.svg" alt="Иконка отправки" />
+                            </button>
+                        </div>
+                    </form>                    
                 </div>
             </div>
         </section>
@@ -360,7 +359,8 @@
                     <p class="footer__text">ООО “Организация” 2020. Все права защищены</p>
                 </footer>
             </div>
-        </section>
+        </section>  
+    </div>
     </div>
     <script type="module" src="./main.js"></script>
 </body>

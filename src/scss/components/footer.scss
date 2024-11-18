@@ -34,3 +34,15 @@
         margin-bottom: 64px;
     }
 }
+
+@media (max-width: 500px) {
+    .footer {
+        &__list {
+            flex-direction: column;
+            gap: 30px;
+            &-item {
+                text-align: center;
+            }
+        }
+    }
+}

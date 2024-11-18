@@ -96,3 +96,21 @@
         }
     }
 }
+
+@media (max-width: 600px) {
+    .card {
+        &__title {
+            font-size: 20px;
+        }
+        &__description {
+            font-size: 14px;
+        }
+    }    
+
+    .card-white {
+        .card__data {
+            text-align: center;
+            position: static;
+        }
+    }
+}

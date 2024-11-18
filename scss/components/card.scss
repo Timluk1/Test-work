@@ -1,4 +1,5 @@
 .card {
+    opacity: 0;
     cursor: pointer;
     display: flex;
     flex-direction: column;
@@ -8,6 +9,10 @@
     width: 100%;
     border-radius: 20px;
     transition: box-shadow 0.8s;
+    &.visible {
+            opacity: 1;
+            transition: all 1s ease-in-out;
+        }
 
     &:hover {
         box-shadow: 4px 8px 40px 0px rgba(8, 24, 111, 0.2);
@@ -74,7 +79,7 @@
 
 
 .card-image-oil {
-    background: url("../oil.jpg") center/cover no-repeat;
+    background: url("./oil.png") center/cover no-repeat;
     color: $font-color-secondary;
 
     .card {
@@ -86,7 +91,7 @@
 }
 
 .card-image-stars {
-    background: url("../stars.png") center/cover no-repeat;
+    background: url("./stars.png") center/cover no-repeat;
     color: $font-color-secondary;
 
     .card {
@@ -113,6 +118,11 @@
             position: static;
         }
     }
+.card-blue {
+    .card__data {
+        text-align: center;
+    }
+}
     .card__content {
         margin-bottom: 40px;
     }

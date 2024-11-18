@@ -58,7 +58,13 @@
 }
 
 .news {
+    opacity: 0;
     margin-bottom: 40px;
+
+    &.visible {
+        opacity: 1;
+        transition: all 1s ease-in-out;
+    }
 
     &__title {
         margin-bottom: 30px;

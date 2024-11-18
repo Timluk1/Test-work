@@ -4,7 +4,7 @@ export class Menu {
         // получаем необходимые DOM элементы
         this.iconBurgerMenu = document.querySelector('.burger-menu');
         this.menu = document.querySelector('.menu');
-        this.iconCloseMenu = document.getElementById('icon-close-menu');
+        this.iconCloseMenu = document.querySelector('.icon-close-menu');
         this.menuOverlay = document.querySelector('.menu-overlay');
 
         // вешаем слушатели событий

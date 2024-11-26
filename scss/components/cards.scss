@@ -158,8 +158,12 @@
 }
 
 @media (max-width: 600px) {
-    .cards__container-first, .cards__container-second, .cards__container-third {
-        grid-template-rows: repeat(3, 1fr);
+    .cards__container-second, .cards__container-third {
+        grid-template-rows: repeat(3, 350px);
+    }
+
+    .cards__container-first {
+        grid-template-rows: 1fr 1fr 350px
     }
 
     .cards {
